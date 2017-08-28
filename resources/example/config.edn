@@ -1,0 +1,10 @@
+{:duct.core/project-ns  example
+ :duct.core/environment :production
+
+ :example.server.http/immutant {}
+
+ :duct.module/logging {}
+ :duct.module/web {}
+
+ :duct.router/cascading
+ []}
